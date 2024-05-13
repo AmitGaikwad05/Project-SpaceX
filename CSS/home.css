@@ -1,0 +1,545 @@
+@import url("global.css");
+
+.rootContainer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#main {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(43, 43, 43);
+}
+
+/* ==================== Main child 01 ====================== */
+
+#mainChild01 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/main/mainChild01bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid rgb(122, 122, 122);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+}
+
+
+.submc01{
+  margin: 40px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 41, 41, 0.753);
+  border-radius: 4px;
+  max-width: 600px;
+  height: fit-content;
+  color: aliceblue;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+.submc01 h2{
+  font-size: 36px;
+}
+.submc01 pre{
+  font-size: 20px;
+}
+
+
+#submc0101 {
+  align-self: flex-start;
+  transition: all 0.2s ease-in-out 0s;
+  
+}
+
+#submc0101:hover{
+  transform: scale(1.05);
+  background-color: rgba(1, 71, 92, 0.705);
+}
+
+#submc0102 {
+  align-self: flex-end;
+  transition: all 0.2s ease-in-out 0s;
+}
+  #submc0102:hover{
+    transform: scale(1.05);
+    background-color: rgba(1, 71, 92, 0.705);
+  }
+
+
+
+/* ==================== Main child 02 ====================== */
+
+#mainChild02{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/main/mainChild02bg.jpg");
+  /* background-color: rgb(65, 65, 65); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  position: relative;
+  border-bottom: 2px solid rgb(110, 110, 110);
+  padding-top: 120px;
+}
+
+
+#mC02Title{
+  max-width: 600px;
+  text-align: center;
+  text-wrap: wrap;
+  position: absolute;
+  top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(226, 226, 226);
+  background-color: rgba(51, 51, 51, 0.356);
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  font-size: 38px;
+  
+
+}
+
+
+/*  ----------------- Test Flight cards ------------------ */
+
+.mC02card{
+ max-width: 300px;
+  min-height: 500px;
+  background-color: rgba(0, 116, 151, 0.404);
+
+  border-top: 3px solid rgb(158, 158, 158);
+  border-bottom: 3px solid rgb(158, 158, 158);
+
+
+box-shadow: 10px 10px 20px rgba(46, 46, 46, 0.788);
+  padding: 20px;
+  margin: 60px;
+  color: white; 
+  font-size: 18px;
+  position: relative;
+  border-radius: 6px;
+}
+
+.mC02cardCover{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 10;
+transition: all 0.2s ease-in-out 0s;
+border-radius: 6px;
+
+}
+
+
+.mC02cardCover h2{
+  background-color: rgba(85, 85, 85, 0.774);
+  padding: 15px;
+  transform-origin: 150px;
+  font-size: 18px;
+  /* border-left: 2px solid white; */
+}
+
+.mC02cardCover:hover{
+  transform: scale(2);
+  filter: opacity(0);
+}
+
+
+#cardCover01{
+  background-image: url("../img/starship/Starship-TF-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#cardCover02{
+  background-image: url("../img/starship/Starship-TF-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#cardCover03{
+  background-image: url("../img/starship/Starship-TF-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#cardCover04{
+  background-image: url("../img/starship/Starship-TF-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* ======================= Main child 03 ======================== */
+
+#mainChild03{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/main/mainChild03bg.jpg");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.801);
+  position:relative;
+
+}
+
+.mc03{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: fit-content;
+  margin: 30px;
+  /* background-color: rgba(80, 80, 80, 0.349); */
+  color: var(--s1-color);
+}
+
+.mc03 b{
+  font-size: 46px;
+  color: greenyellow;
+}
+
+.mc03 h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: var(--s1-color);
+}
+.mc03 p{
+  font-size: 26px;
+}
+
+#mc0301 h2{
+font-size: 46px;
+}
+
+#mc0302 h2{ 
+  margin-top: 20px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out 0s ;
+  background-color: rgba(0, 142, 224, 0.267);
+}
+
+#mc0302 h2:hover{
+  transform: scale(1.1);
+  color: rgb(243, 243, 243);
+  background-color: rgba(0, 142, 224, 0.267);
+  border: 2px solid rgb(120, 212, 255);
+}
+
+#mc0302 p{
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(63, 63, 63, 0.493);
+  border-left : 2px solid white;
+  border-right : 2px solid white;
+}
+
+
+
+
+#mc0303{
+  align-self: flex-end;
+  margin: 40px;
+  padding: 20px;
+  max-width: 380px;
+  height: fit-content;
+  color: var(--s1-color);
+  background-color: rgba(53, 53, 53, 0.705);
+  transition: all 0.2s ease-in-out 0s;
+  border-top: 3px solid rgb(158, 158, 158);
+  border-bottom: 3px solid rgb(158, 158, 158);
+  font-size: 20px;
+}
+
+
+#mc0303:hover{
+  background-color: rgba(1, 90, 117, 0.548);
+  transform: scale(1.02);
+}
+
+
+
+/* ======================= Main child 04 ======================== */
+
+#mainChild04{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between ;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/main/mainChild04bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.mc04{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  margin: 50px;
+  /* background-color: rgba(80, 80, 80, 0.349); */
+  color: var(--s1-color);
+}
+
+.mc04 b{
+  font-size: 46px;
+  color: greenyellow;
+}
+
+.mc04 h2{
+  font-size: 30px;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--s1-color);
+}
+.mc04 p{
+  font-size: 26px;
+  margin: 10px 0px 20px 0px;
+}
+
+#mc0402{
+align-self: flex-start;
+margin-bottom: 280px;
+}
+
+#mc0401 h2{
+  align-self: flex-end;
+  font-size: 46px;
+}
+
+
+#mc0402 h2{
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: rgba(0, 142, 224, 0.267);
+}
+
+#mc0402 h2:hover{
+  transform: scale(1.1);
+  /* box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.61); */
+  color: rgb(243, 243, 243);
+  background-color: rgba(0, 142, 224, 0.267);
+  border: 2px solid rgb(120, 212, 255);
+}
+
+
+#mc0402 p{
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(63, 63, 63, 0.493);
+  border-left : 2px solid white;
+  border-right : 2px solid white;
+}
+
+
+/* ======================= Main child 05 ======================== */
+
+#mainChild05{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/spaceflight/spaceflight03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.mc05{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  margin: 40px;
+  /* background-color: rgba(80, 80, 80, 0.349); */
+  color: var(--s1-color);
+}
+
+.mc05 h2{
+  font-size: 30px;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--s1-color);
+}
+
+.mc05 p{
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+#mc0501{
+  /* position: absolute;
+  top: 30px;
+  right: 20px; */
+}
+
+#mc0502{
+  /* position: absolute;
+  bottom: 40px;
+  left: 10px; */
+  align-self: flex-start;
+}
+
+
+#mc0501 h2{
+  font-size: 42px;
+  align-self: flex-end;
+}
+
+
+#mc0502 h2{
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: rgba(0, 142, 224, 0.267);
+}
+
+#mc0502 h2:hover{
+  transform: scale(1.1);
+  /* box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.61); */
+  color: rgb(243, 243, 243);
+  background-color: rgba(0, 142, 224, 0.267);
+  border: 2px solid rgb(120, 212, 255);
+}
+
+#mc0502 p{
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(63, 63, 63, 0.329);
+  border-left : 2px solid white;
+  border-right : 2px solid white;
+}
+
+
+
+
+/* ======================= Main child 06 ======================== */
+
+#mainChild06{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/main/mainChild06.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.mc06{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 400px;
+  height: fit-content;
+  margin: 60px;
+  /* background-color: rgba(80, 80, 80, 0.349); */
+  color: var(--s1-color);
+}
+
+.mc06 h2{
+  font-size: 30px;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--s1-color);
+}
+
+.mc06 p{
+  font-size: 26px;
+  margin: 20px 0px 20px 0px;
+}
+
+#mc0601{
+}
+
+#mc0602{
+  align-self: flex-start;
+}
+
+#mc0601 h2{
+  font-size: 42px;
+  align-self: flex-end;
+}
+
+
+#mc0602 h2{
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: rgba(0, 142, 224, 0.267);
+}
+
+#mc0602 h2:hover{
+  transform: scale(1.1);
+  /* box-shadow: 5px 5px 5px rgba(75, 75, 75, 0.61); */
+  color: rgb(243, 243, 243);
+  background-color: rgba(0, 142, 224, 0.267);
+  border: 2px solid rgb(120, 212, 255);
+}
+
+#mc0602 p{
+  padding:  5px 20px 5px 20px;
+  background-color: rgba(63, 63, 63, 0.342);
+  border-left : 2px solid white;
+  border-right : 2px solid white;
+}
+
+
+

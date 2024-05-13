@@ -1,0 +1,73 @@
+
+<link rel="stylesheet" href="../CSS/header.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<header>
+    <div class="header">
+
+        <!-- --------------------------- 1. Logo --------------------------- -->
+        <a  id="logo"  href="../index.html" target="_parent" ><img src="../img/SpaceX logo.png" alt="SpaceX Logo" width="160px"  data-aos="zoom-in" data-aos-delay="0"></a>
+        
+        <!-- --------------------------- 2. NavBar --------------------------- -->
+        <nav id="navBar"  data-aos="zoom-in" data-aos-delay="150">
+            <ul>
+                <li class="hideOnMobile" ><a href="#mainChild03" target="_parent">FALCON 9</a></li>
+                <li class="hideOnMobile"><a href="#mainChild04" target="_parent"> FALCON HEAVY </a></li>
+                <li class="hideOnMobile"><a href="dragon.html" target="_parent"> DRAGON </a></li>
+                <li class="hideOnMobile"><a href="#mainChild05" target="_parent"> HUMAN SPACEFLIGHT </a></li>
+                <li class="hideOnMobile"><a href="starlink.html" target="_parent"> STARLINK </a></li>
+                <li class="hideOnMobile"><a href="#mainChild02" target="_parent"> STARSHIP </a></li>
+                <li class="hideOnMobile"><a href="about.html" target="_parent"> ABOUT </a></li>
+            </ul>
+</nav>
+
+<!-- --------------------------- Search & Menu --------------------------- -->
+<div id="searchMenu">
+    
+    <a id="menu"  onclick="showSideBar()"  href="#"> <img src="../img/Icons/menu.png" alt="Menu" width="30px" data-aos="zoom-in" data-aos-delay="350"></a>
+</div>
+
+
+
+<!-- --------------------------- SideBar --------------------------- -->
+
+<div id="sideBar">
+
+<div class="sideBarChild">
+
+<a  id="cross" onclick="hideSideBar()" href=""><img src="../img/Icons/cross.png" alt=""  width="30px"></a>
+
+<div class="searchTab">
+<input  id="searchBox" type="text" placeholder="Search">
+<!-- <a  id="search"  href=""><img src="../img/Icons/search.png" alt="" width="30px"></a> -->
+</div>
+
+
+    <nav id="sideBarNav" >
+        <ul>
+            <li  ><a href="#mainChild03" target="_parent">FALCON 9</a></li>
+            <li ><a href="#mainChild04" target="_parent"> FALCON HEAVY </a></li>
+            <li ><a href="dragon.html" target="_parent"> DRAGON </a></li>
+            <li ><a href="#mainChild05" target="_parent"> HUMAN SPACEFLIGHT </a></li>
+            <li ><a href="starlink.html" target="_parent"> STARLINK </a></li>
+            <li ><a href="#mainChild02" target="_parent"> STARSHIP </a></li>
+            <li ><a href="about.html" target="_parent"> ABOUT </a></li>
+            <li ><a href="shop.html" target="_parent"> SHOP </a></li>
+        </ul>
+</nav>
+
+
+</div>
+
+
+
+    </div>
+
+<script src="../js/header.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 600
+  });
+</script>
+    
+</header>

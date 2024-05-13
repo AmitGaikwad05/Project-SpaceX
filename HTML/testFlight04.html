@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="SpaceX" />
+    <meta
+      name="keywords"
+      content="space, spacex, elon musk, starship, falcon heavy, starbase, space exploration, mars, humanity"
+    />
+    <meta
+      name="description"
+      content="SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets."
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="../img/fevicon.png" type="image/x-icon" />
+    <title>SpaceX - TestFlight-04</title>
+    <link rel="stylesheet" href="../CSS/testFlight.css">
+</head>
+<body>
+    
+    <div class="Container">
+        <!-- -------------- Header import --------------- -->
+        
+    <div class="header-container">
+        <script>
+            fetch('/HTML/header.html')
+                .then(response => response.text())
+                .then(data => document.querySelector('.header-container').innerHTML = data);
+        </script>
+    </div>
+
+
+<main>
+
+
+  <a href="testFlight02.html">
+    <div  class="toTF leftNav  " id="#">
+      <h2>Test Flight - 03</h2>
+      <img src="../gif/down-arrow.gif" alt="">
+    </div>
+  </a>
+
+
+
+  <div class="content">
+    <h1>Starship TestFlight - 04</h1>
+
+<div class="video" data-aos="fade-right">
+<h1>Upcoming...</h1>
+</div>
+
+<pre data-aos="fade-up">
+
+  <b>Test Objective:</b>
+
+  High-Altitude Flight: The primary objective of Starship Test 4 is to conduct a high-altitude flight test, reaching an altitude of approximately 20 kilometers (12.4 miles) above the Earth's surface. This altitude is significantly higher than previous test flights and will allow SpaceX to gather valuable data on the vehicle's performance in near-space conditions.
+  
+  Controlled Descent: Following the ascent phase, the Starship prototype will perform a controlled descent back to Earth. This will involve testing the spacecraft's aerodynamic capabilities, as well as its ability to maneuver and stabilize during re-entry.
+  
+  Landing Maneuvers: The ultimate goal of the test is to successfully land the Starship prototype back on the ground in a controlled manner. This will be a critical demonstration of the spacecraft's ability to safely return from high-altitude flights, paving the way for future crewed missions and interplanetary travel.
+  
+ <b> Key Features and Technologies: </b>
+  
+  Raptor Engines: The Starship prototype will be powered by SpaceX's next-generation Raptor engines, which use methane as fuel. These engines are optimized for efficiency and performance, enabling the spacecraft to achieve the necessary thrust for orbital maneuvers and beyond.
+  
+  Heat Shielding: During re-entry, the Starship will experience extreme temperatures and pressures. To withstand these conditions, the spacecraft is equipped with advanced heat shielding materials and design features to protect it from the intense heat generated during descent.
+  
+  Control Systems: Starship Test 4 will also validate the effectiveness of the spacecraft's guidance, navigation, and control systems. These systems are crucial for maintaining stability and precision during all phases of flight, from launch to landing.
+</pre>
+
+  </div>  
+
+
+
+</main>
+
+  <!-- -------------- Footer import --------------- -->
+  <div class="footer-container">
+    <script>
+        fetch('/HTML/footer.html')
+            .then(response => response.text())
+            .then(data => document.querySelector('.footer-container').innerHTML = data);
+    </script>
+</div>
+
+</div>
+<script src="/js/global.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 600
+  });
+</script>
+</body>
+</html>

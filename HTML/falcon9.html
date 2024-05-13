@@ -1,0 +1,97 @@
+<!-- 
+
+  -- Project Title - SpaceX Customized Website 
+  --@version - 1.2
+  
+  -- Developed by - Amit Gaikwad
+  -- Email - amitgaikwad9975@gmail.com
+  --Github profile - https://github.com/AmitGaikwad05
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="SpaceX" />
+    <meta
+      name="keywords"
+      content="space, spacex, elon musk, starship, falcon heavy, starbase, space exploration, mars, humanity"
+    />
+    <meta
+      name="description"
+      content="SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=10" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="/img/fevicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/falcon9.css" />
+    <link rel="stylesheet" href="/CSS/header.css">
+    
+    <title>SpaceX - Falcon 9</title>
+  </head>
+
+ <!-- ------------------------- body ------------------------------ -->
+  <body>
+    <img id="fixedLogo" src="/img/SpaceX logo.png" alt="" width="100px">
+
+<div class="rootContainer">
+  
+  <main id="main" >
+
+  <!-- -------------- Header --------------- -->
+  <div class="header-container">
+    <script>
+        fetch('/HTML/header.html')
+            .then(response => response.text())
+            .then(data => document.querySelector('.header-container').innerHTML = data);
+    </script>
+</div>
+
+<!-- -------------------------- Main child 01 ---------------------------- -->
+<div id="mainChild01">
+  <h2>The segment (falcon 9) is under development </h2>
+</div>
+
+
+
+<!-- -------------------------- Main child 02 ---------------------------- -->
+<div id="mainChild02">
+  
+</div>
+
+<!-- -------------------------- Main child 03 ---------------------------- -->
+<div id="mainChild03">
+  
+</div>
+
+    
+
+
+    
+  </main>
+
+  <!-- -------------- Footer import --------------- -->
+  <div class="footer-container">
+    <script>
+        fetch('/HTML/footer.html')
+            .then(response => response.text())
+            .then(data => document.querySelector('.footer-container').innerHTML = data);
+    </script>
+</div>
+
+  
+</div>
+
+<script src="/js/global.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 600
+  });
+</script>
+
+  </body>
+</html>

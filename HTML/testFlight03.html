@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="SpaceX" />
+    <meta
+      name="keywords"
+      content="space, spacex, elon musk, starship, falcon heavy, starbase, space exploration, mars, humanity"
+    />
+    <meta
+      name="description"
+      content="SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets."
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="../img/fevicon.png" type="image/x-icon" />
+    <title>SpaceX - TestFlight-03</title>
+    <link rel="stylesheet" href="../CSS/testFlight.css">
+</head>
+<body>
+    
+    <div class="Container">
+        <!-- -------------- Header import --------------- -->
+        
+    <div class="header-container">
+        <script>
+            fetch('/HTML/header.html')
+                .then(response => response.text())
+                .then(data => document.querySelector('.header-container').innerHTML = data);
+        </script>
+    </div>
+
+
+<main>
+
+
+  <a href="testFlight02.html">
+    <div  class="toTF leftNav  " id="#">
+      <h2>Test Flight - 02</h2>
+      <img src="../gif/down-arrow.gif" alt="">
+    </div>
+  </a>
+
+
+
+  <div class="content">
+    <h1>Starship TestFlight - 03</h1>
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/ApMrILhTulI?si=kN-WRC3kU6D2xtmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<pre data-aos="fade-up">
+    <b>Objective:</b> SN10 aimed to further advance the capabilities of the Starship spacecraft, continuing the iterative development process.
+
+
+    <b>Date and Location:</b> The test flight took place on March 3, 2021, at SpaceX's South Texas launch site.
+    
+    <b>Achievements:</b>
+    
+    <b>Ascent: </b> SN10 successfully achieved a similar altitude as its predecessors, demonstrating consistent performance in the ascent phase.
+    <b>Maneuvers:</b> Controlled aerodynamic maneuvers were executed during ascent, showcasing stability and control.
+    <b>Descent:</b> Like previous flights, SN10 initiated a controlled descent phase to test landing procedures.
+    
+    <b>Outcome:</b>
+    
+    <b>Partial Success:</b> SN10 encountered challenges during the landing phase.
+    <b>Anomaly:</b> A failure in one of the landing legs occurred, leading to a rapid unscheduled disassembly (RUD) upon landing.
+
+    <b>Data Collection:</b> Despite the landing anomaly, valuable data was collected from the test flight, contributing to the ongoing refinement of the Starship design..
+    
+ <b>   Significance:</b>  SN10's test flight highlighted both the progress made and the remaining technical hurdles in SpaceX's quest to develop a fully reusable spacecraft capable of enabling human exploration of destinations such as the Moon and Mars.
+</pre>
+
+  </div>  
+
+
+
+  <a href="testFlight04.html">
+    <div  class="toTF  rightNav " id="#">
+      <img src="../gif/down-arrow.gif" alt="">
+      <h2>Test Flight - 04</h2>
+    </div>
+  </a>
+
+
+</main>
+
+  <!-- -------------- Footer import --------------- -->
+  <div class="footer-container">
+    <script>
+        fetch('/HTML/footer.html')
+            .then(response => response.text())
+            .then(data => document.querySelector('.footer-container').innerHTML = data);
+    </script>
+</div>
+
+</div>
+<script src="/js/global.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 600
+  });
+</script>
+</body>
+</html>

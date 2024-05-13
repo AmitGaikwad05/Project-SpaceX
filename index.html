@@ -1,0 +1,281 @@
+<!-- 
+
+  -- Project Title - SpaceX Customized Website 
+  --@version - 1.2
+  
+  -- Developed by - Amit Gaikwad
+  -- Email - amitgaikwad9975@gmail.com
+  --Github profile - https://github.com/AmitGaikwad05
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="SpaceX" />
+    <meta
+    name="keywords"
+    content="space, spacex, elon musk, starship, falcon heavy, starbase, space exploration, mars, humanity"
+    />
+    <meta
+    name="description"
+    content="SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=10" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="/img/fevicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="/CSS/header.css" />
+
+    <title>SpaceX</title>
+  </head>
+
+  <!-- ------------------------- body ------------------------------ -->
+  <body>
+    <img id="fixedLogo" src="/img/SpaceX logo.png" alt="" width="100px" />
+
+    <div class="rootContainer">
+      <main id="main">
+        <!-- -------------- Header --------------- -->
+        <div class="header-container">
+          <script>
+            fetch("/HTML/header.html")
+              .then((response) => response.text())
+              .then(
+                (data) =>
+                  (document.querySelector(".header-container").innerHTML = data)
+              );
+          </script>
+        </div>
+
+        <!-- =============================== Main Child 01 =============================== -->
+        <div id="mainChild01"  >
+          <div  class="submc01"  id="submc0101"  data-aos="fade-right" data-aos-delay="750">
+            <h2>Welcome to SpaceX</h2>
+            <br>
+            <pre>
+              SpaceX designs, manufactures and launches advanced rockets and spacecraft. 
+              
+              The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets
+            </pre>
+          </div>
+
+          <div class="submc01"  id="submc0102"  data-aos="fade-right" data-aos-delay="850" >
+            <h2>Let's occupy mars</h2>
+            <br>  
+            <pre>
+        SpaceX's visionary ambition to establish sustainable human settlements on Mars, marking a pivotal milestone in the company's mission to advance space exploration and colonization. 
+    
+        SpaceX aims to pioneer the development of Martian habitats, fostering a multiplanetary society and ensuring the long-term viability of human presence beyond Earth. 
+            </pre>
+          </div>
+        </div>
+
+        <!-- =============================== Main Child 02 =============================== -->
+        
+        <div id="mainChild02">
+
+          <!-- -------------------------- Heading ---------------------- -->
+          
+          <h2 id="mC02Title" data-aos="fade-right" >SpaceX Starship Journey</h2>
+
+
+          
+          <!-- -------------------------- Card-01 ---------------------- -->
+
+          <a href="/HTML/testFlight01.html">
+            <div id="card1" class="mC02card"  data-aos="fade-up" data-aos-delay="150">
+              <pre>
+      SpaceX's Starship Test Flight 1, or Starship SN8, aimed to showcase aerodynamic control and Raptor engine performance. 
+      
+      Launched on December 9, 2020, it successfully reached 12.5 kilometers but experienced a failed landing due to a Raptor engine issue. 
+      
+      Despite the crash valuable data was gathered for future iterations, advancing SpaceX's goal of a reusable spacecraft for missions to the Moon, Mars, and beyond.
+              </pre>
+              <div id="cardCover01" class="mC02cardCover">
+                <h2>Starship TestFlight - 01</h2>
+              </div>
+            </div>
+          </a>
+
+          <!-- -------------------------- Card-02 ---------------------- -->
+          
+          
+          <a href="/HTML/testFlight02.html">
+            <div id="card1" class="mC02card"  data-aos="fade-up" data-aos-delay="350">
+              <pre>
+             
+     SpaceX's Starship Test Flight 2, or Starship SN9, launched on February 2, 2021, with the goal of refining the spacecraft's capabilities. 
+    
+     Ascending to a similar altitude as its predecessor SN8, SN9 encountered issues during the landing phase. Despite SpaceX's efforts to improve the landing procedure, SN9 experienced a hard landing, leading to an explosion upon impact. 
+      
+     This outcome highlighted areas for further refinement while contributing valuable insights to the iterative development process of SpaceX's Starship program.
+              </pre>
+              <div id="cardCover02" class="mC02cardCover">
+                <h2>Starship TestFlight - 02</h2>
+              </div>
+            </div>
+          </a>
+
+          <!-- -------------------------- Card-03 ---------------------- -->
+          
+          
+          <a href="/HTML/testFlight03.html">
+            <div id="card1" class="mC02card"  data-aos="fade-up" data-aos-delay="550">
+              <pre>
+        Starship Test Flight 3, or Starship SN10, conducted by SpaceX on March 3, 2021 showcased advancements in the program. 
+      
+        SN10 achieved a successful ascent demonstrating improved performance compared to its predecessors. However, during the landing phase, a failure in one of the landing legs caused a rapid unscheduled disassembly (RUD). 
+     
+        Despite the setback, the test provided crucial data for refining future iterations of Starship, marking progress in SpaceX's pursuit of a fully reusable spacecraft for interplanetary missions.
+              </pre>
+              <div id="cardCover03" class="mC02cardCover">
+                <h2>Starship TestFlight - 03</h2>
+              </div>
+            </div>
+          </a>
+          
+
+          <!-- -------------------------- Card-03 ---------------------- -->
+          
+          
+          <a href="/HTML/testFlight04.html">
+            <div id="card1" class="mC02card"  data-aos="fade-up" data-aos-delay="750">
+              <pre>
+    SpaceX's upcoming Starship Test Flight 4, likely to feature Starship SN11, aims to continue advancing the spacecraft's capabilities. 
+    
+    Scheduled to launch from SpaceX's South Texas launch site, the test will focus on refining the landing procedure and overall performance
+              </pre>
+              <div id="cardCover04" class="mC02cardCover">
+                <h2>Starship TestFlight - 04 (Upcoming)</h2>
+              </div>
+            </div>
+          </a>
+
+          
+          
+        </div>
+        
+        <!-- =============================== Main Child 03 =============================== -->
+    
+        <div id="mainChild03">
+        
+<div class="mc03" id="mc0301" data-aos="slide-right" data-aos-delay="50">
+  <h2>Falcon 9</h2>
+  <p> Total <b>340</b> successful launches  </p>
+</div>
+
+<div  class="" id="mc0303"  >
+<pre data-aos="fade-up"  data-aos-delay="250"> 
+    The SpaceX Falcon 9 is a family of partially reusable two-stage-to-orbit launch vehicles designed and manufactured by SpaceX, founded by Elon Musk. 
+
+    It's named after the Millennium Falcon from Star Wars, with the "9" representing the nine engines on its first stage.
+
+    The Falcon 9 has been pivotal in revolutionizing spaceflight by significantly reducing the cost of launching payloads into space through its reusable first stage.</pre>
+</div>
+
+        
+<div  class="mc03" id="mc0302" data-aos="fade-up" data-aos-delay="50"  data-aos-offset="50">
+  <p>Explore more about Falcon 9</p>
+  <a href="/HTML/falcon9.html" target="_blank"><h2 class="exploreKey" >Explore</h2></a>
+</div>
+
+
+
+
+
+        </div>
+
+
+        <!-- ==================== Main Child 04 (falcon heavy) =========================== -->
+        
+        
+        
+        
+        <div id="mainChild04">
+          
+          <div class="mc04" id="mc0401" data-aos="slide-up" data-aos-delay="50">
+            <h2>Falcon Heavy</h2>
+            <p> Total <b>9</b> successful launches  </p>
+          </div>
+          
+        
+          <div class="mc04" id="mc0402" data-aos="fade-up" data-aos-delay="350">
+            <p> Explore more about Falcon Heavy</p>
+            <a href="/HTML/falconHeavy.html" target="_blank"><h2>Explore</h2></a>
+          </div>
+          
+        </div>
+        
+        
+        
+        <!-- ================= Main Child 05 (Human SpaceFlight) ======================== -->
+        
+        <div id="mainChild05">
+          
+        
+          <div class="mc05" id="mc0501" data-aos="fade-up" data-aos-delay="50">
+            <p> Know about the human journey with SpaceX</p>
+            <h2>SpaceFlight</h2>
+          </div>
+          
+          
+          
+          <div class="mc05" id="mc0502" data-aos="fade-right" data-aos-delay="50">
+            <p> Explore more about Human SpaceFlight & Dragon mission</p>
+            <a href="/HTML/hSpaceFlight.html" target="_blank"><h2>Explore</h2></a>
+          </div>
+          
+          
+        </div>
+        
+        
+        <!-- ================= Main Child 06 (Mission mars) ======================== -->
+
+        <div id="mainChild06">
+          
+        
+          <div class="mc06" id="mc0601" data-aos="fade-up" data-aos-delay="50">
+            <p> The ultimate mission of SpaceX</p>
+            <h2>Mission to Mars</h2>
+          </div>
+          
+          
+          
+          <div class="mc06" id="mc0602" data-aos="fade-right" data-aos-delay="250">
+            <p> Lets make life multiplanetary</p>
+            <a href="#" target="_blank"><h2>Explore</h2></a>
+          </div>
+          
+          
+        </div>
+
+
+      </main>
+
+      <!-- -------------- Footer import --------------- -->
+      <div class="footer-container">
+        <script>
+          fetch("/HTML/footer.html")
+            .then((response) => response.text())
+            .then(
+              (data) =>
+                (document.querySelector(".footer-container").innerHTML = data)
+            );
+        </script>
+      </div>
+    </div>
+
+    <script src="/js/global.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 600
+      });
+    </script>
+  </body>
+</html>
+
